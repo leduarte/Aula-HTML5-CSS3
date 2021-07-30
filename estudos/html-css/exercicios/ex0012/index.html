@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado em meu próprio servidor.</p>
+
+    <video width="500" poster="imagens/foto-peixe.jpg" controls autoplay loop>
+        <source src="midia/peixes.mp4" type="video/mp4">
+        <source src="midia/Peixes-1.m4v" type="video/m4v">
+        <source src="midia/Peixes-1.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeo.</p>
+    </video>
+
+    <h1>Inserindo vídeos do youtube</h1>
+    <p>Este vídeo está hospedado em um servidor externo.</p>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/Z_9VePVCyZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    
+</body>
+</html>
